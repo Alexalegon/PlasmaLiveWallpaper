@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#47d271"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#00fff7"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <Button
+        android:text="@string/picker_button"
+        android:textSize="20dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="#47d271"
+        android:id="@+id/picker"
+        android:elevation="4dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#00fff7"
+        style="@style/Widget.AppCompat.Button"
+        android:ellipsize="middle" />
+
+    <Button
+        android:text="@string/settings_button"
+        android:textSize="20dp"
+        android:layout_height="80dp"
+        android:layout_width="150dp"
+        android:background="#47d271"
+        android:id="@+id/settings"
+        android:layout_marginBottom="30dp"
+        android:elevation="4dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#00fff7"
+        android:ellipsize="middle"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:text="@string/web_button"
+        android:textSize="20dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="#47d271"
+        android:id="@+id/web"
+        android:layout_marginBottom="30dp"
+        android:ellipsize="middle"
+        android:elevation="4dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#00fff7" />
+
+</LinearLayout>

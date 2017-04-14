@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plasma Live Wallpaper</string>
+    <string name="interstitial_ad">"ca-app-pub-6661079999208569/8765491135"</string>
+    <string name="picker_button">Set Wallpaper</string>
+    <string name="settings_button">Wallpaper Settings</string>
+    <string name="web_button">More Apps</string>
+</resources>
